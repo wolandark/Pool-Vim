@@ -1,8 +1,12 @@
 # Pool-Vim
 A Vim/Neovim Colorscheme based on the colors of the Persian tradditional mosaic pools. <br>
 
+
+
 <div>
-	<img src="" style="width:50%">
+	<img src="https://github.com/wolandark/Pool-Vim/assets/107309764/eedb7241-35d9-4f01-9355-53fadb8534fb" style="width:50%">
+<!--	<img src="https://github.com/wolandark/Pool-Vim/assets/107309764/eba7c8e1-6389-4adb-b2fe-baec6a58ccd6" style="width:20%"> -->
+
 </div>
 
 ### Setup

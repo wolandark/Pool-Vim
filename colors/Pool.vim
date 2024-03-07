@@ -2,10 +2,9 @@
 " Author:      wolandark (contact-woland@proton.me)
 " Webpage:     http://wolandark.github.io
 " Description: A Colorscheme based on the colors of Persian tradditional mosaic pools
-" Last Change: 2024-03-06
+" Last Change: 2024-03-07
 
 hi clear
-set background=dark
 
 if exists("syntax_on")
   syntax reset
@@ -52,10 +51,10 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi Folded ctermbg=234 ctermfg=62 cterm=NONE guibg=#101D42 guifg=#7372DE gui=NONE
     hi WildMenu ctermbg=234 ctermfg=205 cterm=NONE guibg=#101D42 guifg=#FF55AA gui=NONE
     hi SpecialKey ctermbg=234 ctermfg=227 cterm=NONE guibg=#101D42 guifg=#FFF570 gui=NONE
-    hi DiffAdd ctermbg=234 ctermfg=227 cterm=NONE guibg=#101D42 guifg=#FFFF70 gui=NONE
-    hi DiffChange ctermbg=234 ctermfg=32 cterm=NONE guibg=#101D42 guifg=#1290E8 gui=NONE
-    hi DiffDelete ctermbg=234 ctermfg=159 cterm=NONE guibg=#101D42 guifg=#C2F4FF gui=NONE
-    hi DiffText ctermbg=234 ctermfg=84 cterm=NONE guibg=#101D42 guifg=#3FFA87 gui=NONE
+    hi DiffAdd ctermbg=84 ctermfg=234 cterm=NONE guibg=#3FFA87 guifg=#101D42 gui=NONE
+    hi DiffChange ctermbg=234 ctermfg=178 cterm=NONE guibg=#101D42 guifg=#E7A927 gui=NONE
+    hi DiffDelete ctermbg=205 ctermfg=234 cterm=NONE guibg=#FF55AA guifg=#101D42 gui=NONE
+    hi DiffText ctermbg=159 ctermfg=234 cterm=NONE guibg=#C2F4FF guifg=#101D42 gui=NONE
     hi IncSearch ctermbg=62 ctermfg=234 cterm=NONE guibg=#7372DE guifg=#101D42 gui=NONE
     hi Search ctermbg=62 ctermfg=234 cterm=NONE guibg=#6564DB guifg=#101D42 gui=NONE
     hi Directory ctermbg=234 ctermfg=227 cterm=NONE guibg=#101D42 guifg=#FFFF70 gui=NONE
@@ -120,10 +119,10 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi Folded ctermbg=color1 ctermfg=color6 cterm=NONE
     hi WildMenu ctermbg=color1 ctermfg=color7 cterm=NONE
     hi SpecialKey ctermbg=color1 ctermfg=color8 cterm=NONE
-    hi DiffAdd ctermbg=color1 ctermfg=color9 cterm=NONE
-    hi DiffChange ctermbg=color1 ctermfg=color3 cterm=NONE
-    hi DiffDelete ctermbg=color1 ctermfg=color10 cterm=NONE
-    hi DiffText ctermbg=color1 ctermfg=color11 cterm=NONE
+    hi DiffAdd ctermbg=color11 ctermfg=color1 cterm=NONE
+    hi DiffChange ctermbg=color1 ctermfg=color14 cterm=NONE
+    hi DiffDelete ctermbg=color7 ctermfg=color1 cterm=NONE
+    hi DiffText ctermbg=color10 ctermfg=color1 cterm=NONE
     hi IncSearch ctermbg=color6 ctermfg=color1 cterm=NONE
     hi Search ctermbg=color5 ctermfg=color1 cterm=NONE
     hi Directory ctermbg=color1 ctermfg=color9 cterm=NONE

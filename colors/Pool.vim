@@ -103,17 +103,17 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi TabLineFill ctermbg=NONE ctermfg=color6 cterm=NONE
     hi TabLineSel ctermbg=NONE ctermfg=color7 cterm=NONE
     hi Title ctermbg=NONE ctermfg=color2 cterm=NONE
-    hi CursorLine ctermbg=color2 ctermfg=color1 cterm=NONE
+    hi CursorLine ctermbg=color2 ctermfg=color17 cterm=NONE
     hi LineNr ctermbg=NONE ctermfg=color15 cterm=NONE
     hi CursorLineNr ctermbg=NONE ctermfg=color14 cterm=NONE
     hi helpLeadBlank ctermbg=NONE ctermfg=color11 cterm=NONE
     hi helpNormal ctermbg=NONE ctermfg=color12 cterm=NONE
     hi Visual ctermbg=color16 ctermfg=color1 cterm=NONE
     hi VisualNOS ctermbg=color16 ctermfg=color1 cterm=NONE
-    hi Pmenu ctermbg=color1 ctermfg=color13 cterm=NONE
-    hi PmenuSbar ctermbg=color1 ctermfg=color16 cterm=NONE
-    hi PmenuSel ctermbg=color1 ctermfg=color16 cterm=NONE
-    hi PmenuThumb ctermbg=color1 ctermfg=color16 cterm=NONE
+    hi Pmenu ctermbg=color17 ctermfg=color13 cterm=NONE
+    hi PmenuSbar ctermbg=color17 ctermfg=color16 cterm=NONE
+    hi PmenuSel ctermbg=color17 ctermfg=color16 cterm=NONE
+    hi PmenuThumb ctermbg=color17 ctermfg=color16 cterm=NONE
     hi CocMenuSel ctermbg=color6 ctermfg=color13 cterm=NONE
     hi FoldColumn ctermbg=NONE ctermfg=color5 cterm=NONE
     hi Folded ctermbg=NONE ctermfg=color6 cterm=NONE
@@ -138,7 +138,7 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi MoreMsg ctermbg=NONE ctermfg=color3 cterm=NONE
     hi Question ctermbg=NONE ctermfg=color10 cterm=NONE
     hi Cursor ctermbg=color13 ctermfg=color1 cterm=NONE
-    hi CursorColumn ctermbg=color3 ctermfg=color1 cterm=NONE
+    hi CursorColumn ctermbg=color3 ctermfg=color17 cterm=NONE
     hi QuickFixLine ctermbg=color2 ctermfg=color10 cterm=NONE
     hi Conceal ctermbg=NONE ctermfg=color14 cterm=NONE
     hi ToolbarLine ctermbg=color1 ctermfg=color3 cterm=NONE

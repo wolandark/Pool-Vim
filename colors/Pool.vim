@@ -35,7 +35,7 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi TabLineFill ctermbg=NONE ctermfg=62 cterm=NONE guibg=NONE guifg=#7372DE gui=NONE
     hi TabLineSel ctermbg=NONE ctermfg=205 cterm=NONE guibg=NONE guifg=#FF55AA gui=NONE
     hi Title ctermbg=NONE ctermfg=14 cterm=NONE guibg=NONE guifg=#00F2FF gui=NONE
-    hi CursorLine ctermbg=NONE ctermfg=227 cterm=NONE guibg=NONE guifg=#FFFF70 gui=NONE
+    hi CursorLine ctermbg=14 ctermfg=235 cterm=NONE guibg=#00F2FF guifg=#262b33 gui=NONE
     hi LineNr ctermbg=NONE ctermfg=145 cterm=NONE guibg=NONE guifg=#AFAFAF gui=NONE
     hi CursorLineNr ctermbg=NONE ctermfg=178 cterm=NONE guibg=NONE guifg=#E7A927 gui=NONE
     hi helpLeadBlank ctermbg=NONE ctermfg=84 cterm=NONE guibg=NONE guifg=#3FFA87 gui=NONE
@@ -70,7 +70,7 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi MoreMsg ctermbg=NONE ctermfg=32 cterm=NONE guibg=NONE guifg=#1290E8 gui=NONE
     hi Question ctermbg=NONE ctermfg=159 cterm=NONE guibg=NONE guifg=#C2F4FF gui=NONE
     hi Cursor ctermbg=255 ctermfg=234 cterm=NONE guibg=#F1F1F1 guifg=#101D42 gui=NONE
-    hi CursorColumn ctermbg=62 ctermfg=227 cterm=NONE guibg=#7372DE guifg=#FFFF70 gui=NONE
+    hi CursorColumn ctermbg=32 ctermfg=235 cterm=NONE guibg=#1290E8 guifg=#262b33 gui=NONE
     hi QuickFixLine ctermbg=14 ctermfg=159 cterm=NONE guibg=#00F2FF guifg=#C2F4FF gui=NONE
     hi Conceal ctermbg=NONE ctermfg=178 cterm=NONE guibg=NONE guifg=#E7A927 gui=NONE
     hi ToolbarLine ctermbg=234 ctermfg=32 cterm=NONE guibg=#101D42 guifg=#1290E8 gui=NONE
@@ -103,7 +103,7 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi TabLineFill ctermbg=NONE ctermfg=color6 cterm=NONE
     hi TabLineSel ctermbg=NONE ctermfg=color7 cterm=NONE
     hi Title ctermbg=NONE ctermfg=color2 cterm=NONE
-    hi CursorLine ctermbg=NONE ctermfg=color9 cterm=NONE
+    hi CursorLine ctermbg=color2 ctermfg=color1 cterm=NONE
     hi LineNr ctermbg=NONE ctermfg=color15 cterm=NONE
     hi CursorLineNr ctermbg=NONE ctermfg=color14 cterm=NONE
     hi helpLeadBlank ctermbg=NONE ctermfg=color11 cterm=NONE
@@ -138,7 +138,7 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi MoreMsg ctermbg=NONE ctermfg=color3 cterm=NONE
     hi Question ctermbg=NONE ctermfg=color10 cterm=NONE
     hi Cursor ctermbg=color13 ctermfg=color1 cterm=NONE
-    hi CursorColumn ctermbg=color6 ctermfg=color9 cterm=NONE
+    hi CursorColumn ctermbg=color3 ctermfg=color1 cterm=NONE
     hi QuickFixLine ctermbg=color2 ctermfg=color10 cterm=NONE
     hi Conceal ctermbg=NONE ctermfg=color14 cterm=NONE
     hi ToolbarLine ctermbg=color1 ctermfg=color3 cterm=NONE
